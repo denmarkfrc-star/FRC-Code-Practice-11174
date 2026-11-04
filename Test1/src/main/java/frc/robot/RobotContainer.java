@@ -1,5 +1,6 @@
 package frc.robot;
 
+import frc.robot.subsystems.LauncherSubsystem;
 import edu.wpi.first.wpilibj2.command.Commands;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 
@@ -12,7 +13,6 @@ class RobotContainer{
     public RobotContainer()
     {
         configureBindings();
-        
     }
 
     private void configureBindings()
